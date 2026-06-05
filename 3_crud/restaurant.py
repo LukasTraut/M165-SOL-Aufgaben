@@ -225,4 +225,4 @@ if __name__ == "__main__":
         elif choice in menu:
             menu[choice][1]()
         else:
-            print("Ungültige Auswahl.")
+            print("Ungültige Auswahl.") 
