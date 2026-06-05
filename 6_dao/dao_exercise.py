@@ -63,8 +63,7 @@ class Dao_room:
 class Joke:
     def __init__(self, text: str, category: list[str], author: str, joke_id: str = None):
         self.text = text
-        self.category = category  # Liste von Kategorien
-        self.author = author
+        self.category = category 
         self.id = joke_id
  
     def to_dict(self) -> dict:
@@ -110,11 +109,11 @@ if __name__ == "__main__":
     id2 = dao_room.insert(r2)
     print(f"Eingefügt: {id1}, {id2}")
  
-    # Update
+    
     dao_room.update(id1, capacity=12)
     print(f"Nach Update: {dao_room.get_by_id(id1)}")
  
-    # Delete
+   
     dao_room.delete(id2)
     print(f"Nach Delete: {[str(r) for r in dao_room.get_all()]}")
  
