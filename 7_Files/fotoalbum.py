@@ -1,7 +1,7 @@
 import os
-import sys
+
 from pymongo import MongoClient
-import gridfs
+import gridfs 
  
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
  
