@@ -1,5 +1,5 @@
 import os
-import random
+
 from pymongo import MongoClient
 from PIL import Image, ImageDraw
 

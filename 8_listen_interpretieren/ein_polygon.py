@@ -1,6 +1,6 @@
 import os
 from pymongo import MongoClient
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw 
 
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
 client = MongoClient(MONGO_URI)
