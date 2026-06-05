@@ -17,4 +17,4 @@ try:
     dbs = client.list_database_names()
     print(f"Verfügbare Datenbanken: {dbs}")
 except Exception as e:
-    print(f"Verbindung fehlgeschlagen: {e}")
+    print(f"Verbindung fehlgeschlagen: {e}") 
