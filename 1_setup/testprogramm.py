@@ -10,4 +10,4 @@ print("Verbindung erfolgreich!")
 print(f"MongoDB Version: {info['version']}")
 
 dbs = client.list_database_names()
-print(f"Vorhandene Datenbanken: {dbs}")
+print(f"Vorhandene Datenbanken: {dbs}") 
