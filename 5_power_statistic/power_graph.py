@@ -7,7 +7,7 @@ import matplotlib.dates as mdates
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
 
 client = MongoClient(MONGO_URI)
-db = client["power_stats"]
+db = client["power_stats"] 
 collection = db["logs"]
 
 

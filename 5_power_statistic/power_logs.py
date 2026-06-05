@@ -10,7 +10,7 @@ MAX_LOGS = 10_000
 client = MongoClient(MONGO_URI)
 db = client["power_stats"]
 collection = db["logs"]
- 
+  
  
 class Power:
     
